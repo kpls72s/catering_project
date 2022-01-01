@@ -1,0 +1,35 @@
+.text-orange{
+    color: orange;
+}
+.mainBanner{
+    height: 340px;
+    width: 100%;
+    background-image:linear-gradient(to bottom,rgba(249, 180,45,.5),transparent),url('/images/banners/mainbanner2.jpg');
+    margin-bottom: 12px;
+    background-size: cover;
+    background-position: center;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    transition: 0.3s;
+}
+.card:hover img{
+    transform:scale(1.06)
+}
+.mainTitles::after {
+    content: "";
+    display: block;
+    width: 18%;
+    height: 1px;
+    background-color: rgba(0,0,0,.55);
+    position: relative;
+    right: 41%;
+    margin-top: 10px;
+}
+@media only screen and (min-width: 600px) {
+    .card img {
+        height: 210px;
+    }
+}

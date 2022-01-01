@@ -1,0 +1,39 @@
+.footer{
+    margin-top: 4rem;
+    background-color: orange;
+    color: rgba(0,0,0,.55);
+}
+.footer h5{
+    padding-right: 30px;
+    margin-top: 1.5rem;
+}
+.footer h5::after{
+    content: "";
+    display: block;
+    width: 20%;
+    height:1px;
+    background-color: rgba(0,0,0,.55);
+    position: relative;
+    right: 40%;
+    margin-top: 10px;
+}
+.footerAbout{
+    text-align: justify;
+    padding: 12px;
+}
+.footer .socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin-top: 24px;
+
+}
+.footer .socialMedia li{
+    padding: 0 12px;
+}
+.footer .socialMedia a{
+    color : rgba(0,0,0,.55);
+}
+.footer .socialMedia span:hover{
+    color : white;
+}

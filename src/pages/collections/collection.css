@@ -1,0 +1,91 @@
+.collection-banner{
+    background-image:linear-gradient(to bottom,rgba(249, 180,45,.5),rgba(249, 180,45,.7)), url("/images/banners/backGround.png");
+    width: 100%;
+    height: 350px;
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position: revert;
+}
+.collection-image{
+    background-image:linear-gradient(to bottom,rgba(249, 180,45,.5),rgba(249, 180,45,.7));
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.pagination .page-item.active .page-link{
+    background-color: forestgreen;
+    color: #ffff;
+}
+.pagination .page-link{
+    color: #000;
+}
+.items-container{
+    border: 1px solid darkorange;
+    border-radius: 12px;
+}
+.collections-h{
+    margin: 60px 0;
+    background-color: darkorange;
+    padding: 8px 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.menu-card img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin: 0 auto;
+    transform: translate(-60px, 45px);
+}
+.menu-card:hover img{
+    transform: translate(-60px,35px) !important;
+}
+.menu-body{
+    text-align: right;
+    border: 1px solid gainsboro;
+    border-radius: 12px;
+    background-color: brown;
+    color: white;
+
+}
+.card .btn-primary:hover,.card .btn-primary{
+    border: none;
+}
+.card .btn-check:focus+.btn-primary, .btn-primary:focus{
+    box-shadow: none !important;
+}
+.card .card-header{
+    background-color: orange;
+}
+.restaurant-info{
+    border-radius: 14px;
+    box-shadow: 0px 3px 5px 0px rgb(213 201 172);
+    margin: 25px auto;
+    padding: 12px 0;
+    border: 1px solid gainsboro;
+    background-color: #fff;
+    transform: translateY(-45px);
+    width: 90% !important;
+}
+.collection-image span{
+    background-color: rgba(19, 16, 11, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.restaurant-info p{
+    text-align: right;
+}
+
+@media screen and (min-width : 768px) {
+    .collection-banner{
+        background-size: auto;
+    }
+    
+}

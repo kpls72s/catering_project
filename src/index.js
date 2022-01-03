@@ -11,8 +11,8 @@ ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider dir="rtl">
     <Provider store = {Store}>
-      <BrowserRouter>
-      <Routes>
+      <BrowserRouter basename='/catering_project' >
+      <Routes >
         <Route path = "/*" element={<App />} />
       </Routes>
       </BrowserRouter>

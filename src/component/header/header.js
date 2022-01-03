@@ -29,7 +29,7 @@ function Header() {
           </li>
         </ul>
         <span className="logoImgBox">
-          <img src="/images/logo/logo.png" alt="پرتقال"/>
+          <img src="/catering_project/images/logo/logo.png" alt="پرتقال"/>
         </span>
         <span className="ourServices">
           <Link to="Cart">
@@ -71,7 +71,7 @@ function Header() {
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel">
                 <span className="logoImgBox">
-                  <img src="/images/logo/logo.png" alt="پرتقال"/>
+                  <img src="/catering_project/images/logo/logo.png" alt="پرتقال"/>
                 </span>
               </Offcanvas.Title>
             </Offcanvas.Header>

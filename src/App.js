@@ -13,6 +13,7 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import Collections from "./pages/collections/collections";
 import Collection from "./pages/collections/collection";
 import Cart from "./pages/Cart/cart";
+import Notfound from "./component/notFound/notFound";
 import Register from "./pages/register/register";
 import './App.css'
 
@@ -32,13 +33,7 @@ function App(props) {
         <Route path ="register" element={< Register />} />
         <Route
           path="*"
-          element={
-            <main>
-              <p>
-                خطای <big>۴۰۴</big> صفحه مورد نظر یافت نشد .
-              </p>
-            </main>
-          }
+          element={<Notfound />}
         />
       </Routes>
       <Outlet />
@@ -49,3 +44,4 @@ function App(props) {
 }
 
 export default App;
+//in da getto

@@ -1,5 +1,5 @@
 .collection-banner{
-    background-image:linear-gradient(to bottom,rgba(249, 180,45,.5),rgba(249, 180,45,.7)), url("/images/banners/backGround.png");
+    background-image:linear-gradient(to bottom,rgba(249, 180,45,.5),rgba(249, 180,45,.7)), url("/catering_project/images/banners/backGround.png");
     width: 100%;
     height: 350px;
     background-size: contain;

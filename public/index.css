@@ -22,3 +22,6 @@ ul{
 nav .navbar-dark .navbar-nav .nav-item .nav-link{
     color: transparent !important;
 }
+main{
+    min-height: 40vh;
+}

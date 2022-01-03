@@ -1,0 +1,10 @@
+.notFound p {
+  background: brown;
+  color: whitesmoke;
+  padding: 140px 0;
+  margin-bottom: -65px;
+  font-size: larger;
+}
+.notFound big{
+    color: goldenrod;
+}

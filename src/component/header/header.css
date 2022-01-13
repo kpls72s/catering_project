@@ -16,8 +16,23 @@
     box-shadow: 0px 12px 20px -15px ;
     padding: 0 12px;
 }
+div.offcanvas-backdrop.show{
+    opacity: 1;
+    right: 68px;
+}
+div.offcanvas-backdrop {
+    background-color: rgba(255,255,255,0.85) !important;
+}
+#offcanvasNavbar{
+    background: none;
+    right : 68px;
+}
+#offcanvasNavbar .offcanvas-header .btn-close{
+    margin-left: 3.5rem;
+}
 .offcanvas{
-    background-color: #dff1d8;
+    opacity: 1 !important;
+    background-color: rgba(255,255,255,0.8);
 }
 .offcanvas-title .logoImgBox img{
     width: 50%;
@@ -40,6 +55,7 @@
 }
 .dropdown-menu{
     border-color: #dff1d8;
+    background-color: rgba(255,255,255,0.3) !important;
 }
 .dropdown-item:hover{
     background-color: white;

@@ -4,7 +4,7 @@
 .mainBanner{
     height: 340px;
     width: 100%;
-    background-image:linear-gradient(to bottom,rgba(249, 180,45,.5),transparent),url('/catering_project/images/banners/mainbanner2.jpg');
+    background-image:linear-gradient(to bottom,rgba(249, 180,45,.5),transparent),url('/catering_project/images/banners/mainbanner3.jpg');
     margin-bottom: 12px;
     background-size: cover;
     background-position: center;

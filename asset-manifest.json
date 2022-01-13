@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/catering_project/static/css/main.ca74126e.chunk.css",
+    "main.css": "/catering_project/static/css/main.387524d9.chunk.css",
     "main.js": "/catering_project/static/js/main.114b2f9b.chunk.js",
     "main.js.map": "/catering_project/static/js/main.114b2f9b.chunk.js.map",
     "runtime-main.js": "/catering_project/static/js/runtime-main.7542a856.js",
@@ -9,17 +9,17 @@
     "static/js/2.9d61d7e1.chunk.js": "/catering_project/static/js/2.9d61d7e1.chunk.js",
     "static/js/2.9d61d7e1.chunk.js.map": "/catering_project/static/js/2.9d61d7e1.chunk.js.map",
     "index.html": "/catering_project/index.html",
-    "precache-manifest.70d4082751c5fb78181cba6d19500110.js": "/catering_project/precache-manifest.70d4082751c5fb78181cba6d19500110.js",
+    "precache-manifest.836ce175feb77d8df47435a892d49c15.js": "/catering_project/precache-manifest.836ce175feb77d8df47435a892d49c15.js",
     "service-worker.js": "/catering_project/service-worker.js",
     "static/css/2.ce82ae99.chunk.css.map": "/catering_project/static/css/2.ce82ae99.chunk.css.map",
-    "static/css/main.ca74126e.chunk.css.map": "/catering_project/static/css/main.ca74126e.chunk.css.map",
+    "static/css/main.387524d9.chunk.css.map": "/catering_project/static/css/main.387524d9.chunk.css.map",
     "static/js/2.9d61d7e1.chunk.js.LICENSE.txt": "/catering_project/static/js/2.9d61d7e1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7542a856.js",
     "static/css/2.ce82ae99.chunk.css",
     "static/js/2.9d61d7e1.chunk.js",
-    "static/css/main.ca74126e.chunk.css",
+    "static/css/main.387524d9.chunk.css",
     "static/js/main.114b2f9b.chunk.js"
   ]
 }
